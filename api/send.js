@@ -14,7 +14,7 @@ export default async function handler(req, res) {
 
     const ONE_SIGNAL_APP_ID = "80e9a120-0f85-4238-add0-92fa66c3a40c";
     const ONE_SIGNAL_REST_API_KEY =
-      "os_v2_app_llijovba3bcqnhvxxcxcrefirjoiaje2e4qulbuu7gvhllaf6iq5h4uhpn5kmylkyodmnmmgchux6yuszrrpb4hv5nhm3ju6u3ntjri";
+      "os_v2_app_llijovba3bcqnhvxxcxcrefirj2lv5znl6ie7i4etkotrrfxn6i6xcwws7pw7fz7prvrjpietj2f3ob73ruzs3zaji55dxwsjghiuoi";
     const response = await axios.post(
       "https://onesignal.com/api/v1/notifications",
       {
