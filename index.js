@@ -8,7 +8,7 @@ app.use(express.json());
 
 // ⚠️ هنا هتحط بيانات OneSignal بتاعتك
 const ONE_SIGNAL_APP_ID = "80e9a120-0f85-4238-add0-92fa66c3a40c";
-const ONE_SIGNAL_REST_API_KEY = "os_v2_app_qdu2ciapqvbdrloqsl5gnq5ebtptms4vowte5km7ek7fwicifcouvqvy24uckd6t35o7ke3fskdl62ss33ehptjxedr4x4u7f3hp2fy";
+const ONE_SIGNAL_REST_API_KEY = "os_v2_app_qdu2ciapqvbdrloqsl5gnq5ebskbs7ridxlep7vbqlhj2cvp6zkobr2ghsvqyqumj335gkx7mmw2gt4y3unxvj3rsc32hvsugk77gba";
 
 app.get("/", (req, res) => {
   res.send("Server is running...");
