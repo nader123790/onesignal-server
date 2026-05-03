@@ -1,6 +1,16 @@
 {
   "version": 2,
   "routes": [
+    {
+      "src": "/(.*)",
+      "methods": ["OPTIONS"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization"
+      },
+      "dest": "/api/health.js"
+    },
     { "src": "/api/auth/waiter", "dest": "/api/auth/waiter.js" },
     { "src": "/api/orders/alerts", "dest": "/api/orders/alerts.js" },
     { "src": "/api/orders/([^/]+)", "dest": "/api/orders/[id].js" },
