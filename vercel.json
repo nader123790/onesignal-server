@@ -11,7 +11,9 @@
       },
       "dest": "/api/health.js"
     },
+    { "src": "/api/auth/cashier", "dest": "/api/auth/cashier.js" },
     { "src": "/api/auth/waiter", "dest": "/api/auth/waiter.js" },
+    { "src": "/api/orders/finalize", "dest": "/api/orders/finalize.js" },
     { "src": "/api/orders/alerts", "dest": "/api/orders/alerts.js" },
     { "src": "/api/orders/([^/]+)", "dest": "/api/orders/[id].js" },
     { "src": "/api/orders", "dest": "/api/orders/index.js" },
