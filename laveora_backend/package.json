@@ -1,0 +1,9 @@
+{
+  "name": "laveora-backend",
+  "version": "1.0.0",
+  "description": "LAVEORA Backend — Vercel Serverless + Firebase + Telegram",
+  "dependencies": {
+    "firebase-admin": "^12.2.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
